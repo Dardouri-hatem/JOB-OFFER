@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Courgette|Lobster|Permanent+Marker&display=swap');
+
+.container-appointment-card{
+padding: 20px;
+display: flex;
+background-color:#eef2f6;
+}
+.appointment-card{
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 1px 2px 9px -1px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    background-color: white;
+}
+.appointments-list>h5{
+font-family: 'Courgette';
+color: #435f71;
+}
+.appointment-header{
+list-style: none;
+background: #e62638;
+color: #fff;
+padding-left: 14px;
+padding: 6px;
+border-radius:4px 4px 0 0;
+cursor: pointer;
+}
+.appointment-body{
+list-style: none;
+padding: 5px 5px 3px 14px;
+cursor: pointer;
+}
+
+.description{
+    display: none;
+}
+.description-true{
+    display: flex;
+    padding: 20px;
+    margin-left: 80px;
+}
+.vl {
+    border-left: 1px ridge gray;
+    height: 100vh;
+    margin-left: 40px;
+  }
+
+.appointment-details{
+    min-width: 50vw;
+    background-color: white;
+    list-style: none;
+}
+
+.li-details{
+    padding-left:14px ;
+}
+.p-details{
+    padding-left: 22px;
+}
+.li-details>h6{
+   color:  #0596de ;
+}
+.cancel-app{
+    color: orange;
+    cursor: pointer;
+}
+.confirm-app{
+    color : green;
+    cursor: pointer;
+}
+.confirm-app:hover{
+    color: rgb(51, 245, 12);
+}
+.cancel-app:hover{
+    color:red ;
+}
+
+.closeBtn{
+    font-family: 'Courgette';
+}
+.toolBar{
+    background-color:#0596de ;
+}

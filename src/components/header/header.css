@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Courgette|Lobster|Permanent+Marker&display=swap');
+
+
+.navbar{
+  background-color:#0596de;  
+  max-height: 50px;
+  font-family: 'Courgette' ;
+}
+
+.navLink{
+color: white ;
+margin: 0px 20px;
+text-decoration: none;
+font-weight: 500;
+font-size: 15px;
+
+}
+.spanLink{
+  border-radius: 4px;
+  color: white ;
+  background-color: transparent;
+  padding: 5px;
+  font-size: 16px;
+}

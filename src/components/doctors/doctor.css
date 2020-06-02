@@ -1,0 +1,63 @@
+.doctors-container{
+position: relative;
+display: flex;
+padding-left: 30px;
+}
+.acceuil{
+    background-color: #eef2f6;
+}
+.acceuil>h6{
+    text-align: center;
+    color: #435f71;
+    padding-top: 20px;
+}
+
+.doctor-card{
+    background-color: white;    
+    padding: 20px;
+    width: 120%;
+    margin: 20px;
+}
+.doctor-card:hover{
+    border : 1px solid lightskyblue
+}
+.avatar{
+    display: flex;
+    
+}
+.avatar img{
+    border-radius: 50%;
+    width: 80px;
+    margin-right: 10px;
+    height: 80px;
+}
+.acceuil>input{
+    width: 70%; 
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.100);
+}
+.pub-coronavirus{
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    right : 0px;
+}
+.coronavirus{
+    background-color: #fdc400;
+    padding: 5px;
+    text-align: center;
+    color: #435f71;
+
+}
+.patient-inform{
+    padding: 20px;
+}
+.search-input{
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
